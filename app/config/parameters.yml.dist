@@ -4,7 +4,7 @@
 parameters:
     database_host:     127.0.0.1
     database_port:     ~
-    database_name:     symfony
+    database_name:     mobile-notif-app
     database_user:     root
     database_password: ~
     # You should uncomment this if you want use pdo_sqlite
@@ -18,5 +18,10 @@ parameters:
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
 
+    # symfony session path
+    session_save_path: '%kernel.root_dir%/../var/sessions/%kernel.environment%'
+
     # mobile-notif-app
     ios_ssl_pem_path: '%kernel.root_dir%/../certificates/mobile-notif-app.dev.pem'
+    ios_ssl_passphrase: ~
+    ios_endpoint: 'tls://gateway.sandbox.push.apple.com:2195'
