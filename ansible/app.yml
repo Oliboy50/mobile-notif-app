@@ -1,0 +1,14 @@
+---
+
+- hosts: local
+  become: yes
+  become_user: root
+  roles:
+    - common-packages
+    - oh-my-zsh
+    - nginx
+    - php
+    - composer
+  vars_files:
+    - vars.yml
+    - vars.local.yml

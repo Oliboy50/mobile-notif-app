@@ -1,0 +1,34 @@
+# junk
+.DS_Store
+/.idea/
+/*.log
+
+# ansible-vagrant
+/.vagrant/
+/ansible/roles/
+/ansible/vars.local.yml
+/ansible/vagrant-parameters.yml
+/ansible/*.retry
+
+# symfony
+/.web-server-pid
+/app/config/parameters.yml
+/build/
+/phpunit.xml
+/var/*
+!/var/cache
+/var/cache/*
+!var/cache/.gitkeep
+!/var/logs
+/var/logs/*
+!var/logs/.gitkeep
+!/var/sessions
+/var/sessions/*
+!var/sessions/.gitkeep
+!var/SymfonyRequirements.php
+/vendor/
+/web/bundles/
+
+# mobile-notif-app
+/certificates/*
+!/certificates/.gitkeep

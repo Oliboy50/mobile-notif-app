@@ -1,0 +1,6 @@
+---
+
+workspace: '/var/www/mobile-notif-app'
+
+sites:
+  - { name: 'mobile-notif-app', server_name: 'mobile-notif-app.dev', template: 'vhost.symfony.j2' }
