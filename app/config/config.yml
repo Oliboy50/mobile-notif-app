@@ -77,3 +77,8 @@ link_value_mobile_notif:
                     ssl_pem_path: '%ios_ssl_pem_path%'
                     ssl_passphrase: '%ios_ssl_passphrase%'
                     endpoint: '%ios_endpoint%'
+        gcm:
+            mobile_notif_app_android:
+                params:
+                    api_access_key: '%android_api_access_key%'
+                    endpoint: '%android_endpoint%'
