@@ -25,3 +25,5 @@ parameters:
     ios_ssl_pem_path: '%kernel.root_dir%/../certificates/mobile-notif-app.dev.pem'
     ios_ssl_passphrase: ~
     ios_endpoint: 'tls://gateway.sandbox.push.apple.com:2195'
+    android_api_access_key: 'YOUR_GOOGLE_API_KEY'
+    android_endpoint: 'https://android.googleapis.com/gcm/send'
